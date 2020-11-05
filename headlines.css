@@ -18,11 +18,15 @@
 
 .headline-image {
   padding-left: 1rem;
+ -moz-box-shadow: 10px 10px 5px #888;
+ -webkit-box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888;
 
 }
 
 .make_transperant {
   background:linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35));
+  width: 27rem;
 }
 
 .headline {
@@ -32,6 +36,7 @@
 .text-on-picture {
   position: absolute;
   color: white;
+  font-size: 1rem;
   z-index: 1;
   top :11rem;
   left: 2rem;
@@ -42,7 +47,7 @@
 }
 
 .about-headline {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   width: 21rem;
   text-shadow: black 0.1rem 0 1rem;
 }
@@ -57,4 +62,10 @@
 .hand {
   width: 1rem;
 }
+
+body {
+  max-width: 60rem;
+  margin: 0rem auto;
+}
+
 
