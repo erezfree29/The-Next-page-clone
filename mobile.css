@@ -1,7 +1,6 @@
 .link-nav {
   display: flex;
   justify-content: space-between;
-
 }
 .navigation_bar {
   justify-self: end;
@@ -51,13 +50,14 @@
 }
 
 .news article {
-  background-size: 100% 130px;
+  background-size: 100% 30vh;
   height: 130px;
+  position: relative;
   background-repeat: no-repeat;
 }
 .main_news {
   position: relative;
-  height: 100px;
+  height: 30vh;
 }
 .recent_news header {
   display: flex;

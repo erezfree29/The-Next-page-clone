@@ -27,8 +27,8 @@ a {
 }
 .icons {
   display: block;
-  width: 2rem;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -37,11 +37,10 @@ a {
 .search_icon {
   background-image: url("./assets/search.png");
 }
-.search_menu {
-  background-image: url("./assets/menu.svg");
-}
+
 .top_nav, .navigation_bar, .top_nav ul, .navigation_bar ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 0px;
 }
