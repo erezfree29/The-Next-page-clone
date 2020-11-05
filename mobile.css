@@ -46,18 +46,16 @@
   position: relative;
   gap: 5px;
   color: white;
-  
 }
 
 .news article {
   background-size: 100% 30vh;
-  height: 130px;
   position: relative;
   background-repeat: no-repeat;
 }
 .main_news {
   position: relative;
-  height: 30vh;
+  height: 9em;
 }
 .recent_news header {
   display: flex;
@@ -71,10 +69,34 @@
 .recent_news {
   margin-top: 60px;
   margin-left: 10px;
-  font-size: 13px;
+  font-size: 1remx;
 }
 
 .author {
+  display: flex;
   font-size: 10px;
   color: rgb(228, 224, 218);
+  margin-top: 0.5rem;
 }
+
+.clock {
+  width: 1rem;
+  padding-top: 0.1rem;
+  margin-right: 0.5rem;
+}
+
+.by {
+  padding-right:0.5rem;
+}
+
+.first_sub_news {
+  height: 7rem;
+}
+
+.time {
+  margin-left: -1rem;
+}
+
+
+
+
