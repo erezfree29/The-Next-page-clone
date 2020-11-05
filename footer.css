@@ -1,0 +1,119 @@
+.foot_up {
+  background-color: #131313;
+}
+
+.foot_down {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.icon {
+  background-color: white;
+}
+
+.circle {
+  width: 2rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face {
+  margin-right: 0.2rem;
+}
+
+.twitt {
+  margin-right: 0.2rem;
+}
+
+.tube {
+  margin-right: 0.2rem;
+}
+
+.gram {
+  margin-right: 0.2rem;
+}
+
+.pin {
+  margin-right: 0.2rem;
+}
+
+.rss {
+  margin-right: 0.2rem;
+}
+
+a {
+  color: inherit;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.link {
+  color: #aaa;
+  font-size: 0.7rem;
+}
+
+.events {
+  padding-right: 0.5rem;
+}
+
+.about {
+  padding-right: 0.5rem;
+}
+
+.advertise {
+  padding-right: 0.5rem;
+}
+
+.jobs {
+  padding-right: 0.5rem;
+}
+
+.logo {
+  padding-right: 0.3rem;
+  width: 2rem;
+  height: 1rem;
+}
+
+.fa-copyright {
+  color: #a4aaaa;
+  padding-right: 0.3rem;
+}
+
+.text {
+  color: #a4aaaa;
+  font-size: 1rem;
+}
+
+.copyrights {
+  display: flex;
+  width: 17rem;
+}
+
+.made {
+  padding-left: 0.5rem;
+}
+
+.powered {
+  padding-left: 1.5rem;
+}
+
+.stack {
+  width: 4rem;
+}
