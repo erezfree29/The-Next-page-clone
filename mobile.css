@@ -71,10 +71,10 @@
 .recent_news {
   margin-top: 60px;
   margin-left: 10px;
-  font-size: 400;
+  font-size: 13px;
 }
 
 .author {
-  font-size: small;
+  font-size: 10px;
   color: rgb(228, 224, 218);
 }
