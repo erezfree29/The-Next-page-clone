@@ -1,0 +1,46 @@
+/* .....global css..... */
+
+*, *::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-size: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-mobile img {
+  width: 66px;
+  height: 40px;
+}
+.icons {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.search_icon {
+  background-image: url("./assets/search.png");
+}
+
+.top_nav, .navigation_bar, .top_nav ul, .navigation_bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0px;
+}
