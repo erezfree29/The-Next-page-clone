@@ -1,0 +1,22 @@
+.new-picture-image {
+  width: 7.5rem;
+  margin-left: 1rem;
+  padding-right: 1rem;
+}
+
+.new {
+  display: flex;
+  width: 23.25rem;
+  margin-top: 2rem;
+}
+.new a { color: black; } 
+
+.new-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.new-time {
+  font-size: 0.7rem;
+  color: #afaaaa;
+} 
