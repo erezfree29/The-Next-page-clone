@@ -26,6 +26,7 @@
 
 .make_transperant {
   background:linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35));
+  height: 20rem;
   width: 27rem;
 }
 
@@ -38,7 +39,7 @@
   color: white;
   font-size: 1rem;
   z-index: 1;
-  top :11rem;
+  top :15rem;
   left: 2rem;
 }
 
@@ -65,7 +66,5 @@
 
 body {
   max-width: 60rem;
-  margin: 0rem auto;
+  margin: auto;
 }
-
-
