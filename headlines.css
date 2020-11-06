@@ -4,15 +4,14 @@
 
 .sub-headline {
   display: flex;
-  width: 24rem;
-  padding-left: 0.5rem;
+  width: 28rem;
 }
 
 .box {
   background-color: #fff4f2;
   color: #ff4422;
   font-weight: 600;
-  width: 13rem;
+  width: 27rem;
   padding-left: 1rem;
 }
 
