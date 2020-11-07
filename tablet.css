@@ -2,7 +2,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .news {
     margin-top: 1rem !important;
-    width: 51rem !important;
+    width: 60rem !important;
     display: grid;
     grid-template-rows: 10rem 18.5rem;
     grid-template-columns: 60% 40%;
@@ -11,7 +11,7 @@
   
   .main_news {
     height: 28rem !important;
-    width: 30.2rem;
+    width: 35.2rem;
     grid-row-start: 1;
     grid-row-end: 2;
 
@@ -61,14 +61,16 @@
     margin-top: 7rem;
   }
   .company-logo-first {
-    top: 95.5rem;
+    top: 101rem;
   }
 
   .company-logo-second {
-    top: 112.6rem;
+    top: 101.5rem;
+    left: 18rem;
   }
   .company-logo-third {
-    top: 129.6rem;
+    top: 101.5rem;
+    left: 32rem;
   }
   .nigeria {
     top: 21.2rem !important;
@@ -121,7 +123,7 @@
   }
   .news-pieces {
     display: grid;
-    grid-template-columns: 20rem 33% 33%;
+    grid-template-columns: 21rem 21rem 21rem;
   }
   .one {
     grid-column: 1;
@@ -201,10 +203,41 @@
   }
 
   .rounds {
-    display: grid;
+    display: flex;
 
   }
-  
+
+  .round {
+    margin-right: -4rem;
+  }
+
+  .company {
+    width: 16rem;
+  }
+
+  .raising {
+    width: 16rem;
+  }
+
+  .brief {
+    width: 16rem;
+  }
+
+  .headlines {
+    display: grid;
+    width: 51rem;
+    grid-template-columns: 50% 50%;
+  }
+  .name {
+    font-size: 1rem;
+  }
+  .new-text {
+    width: 9rem;
+  }
+  .new {
+    width: 16rem;
+    margin-left: 1rem;
+  }
 }
 
   
