@@ -1,3 +1,4 @@
+  
 @media (min-width: 768px) and (max-width: 1024px) {
   .news {
     margin-top: 1rem !important;
@@ -60,14 +61,14 @@
     margin-top: 7rem;
   }
   .company-logo-first {
-    top: 91.5rem;
+    top: 95.5rem;
   }
 
   .company-logo-second {
-    top: 108.6rem;
+    top: 112.6rem;
   }
   .company-logo-third {
-    top: 125.6rem;
+    top: 129.6rem;
   }
   .nigeria {
     top: 21.2rem !important;
@@ -179,6 +180,7 @@
 
   .new-picture-image {
     width: 90%;
+    height: 13rem;
   }
   .new-text {
     margin-left: 1rem;
@@ -189,6 +191,20 @@
   .watch {
     top:7rem !important;
   }
+
+  .latest-funding {
+    width: 40rem;
+  }
+
+  .new-time {
+    font-size: 1rem;
+  }
+
+  .rounds {
+    display: grid;
+
+  }
+  
 }
 
   
