@@ -3,10 +3,6 @@ button {
   background: none;
 }
 
-ul {
-  list-style-type: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -37,7 +33,9 @@ a {
 .top_nav {
   position: fixed;
   width: 100%;
-  top 0;
   z-index: 9999;
   background-color: white;
+}
+.menu {
+  margin-right: 1rem;
 }
