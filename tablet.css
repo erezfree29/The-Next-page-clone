@@ -61,16 +61,16 @@
     margin-top: 7rem;
   }
   .company-logo-first {
-    top: 101rem;
+    top: 110.5rem;
   }
 
   .company-logo-second {
-    top: 101.5rem;
-    left: 18rem;
+    top: 110.5rem;
+    left: 22rem;
   }
   .company-logo-third {
-    top: 101.5rem;
-    left: 32rem;
+    top: 110.5rem;
+    left: 42rem;
   }
   .nigeria {
     top: 21.2rem !important;
@@ -105,10 +105,7 @@
     margin-right: 22rem;
     width: 38rem;
   }
-  ul li::before {
-    visibility: hidden;  
-   
-  }
+
   .search_icon {
     margin-left: -19rem !important;
     margin-right: 12rem;
@@ -225,8 +222,8 @@
 
   .headlines {
     display: grid;
-    width: 51rem;
-    grid-template-columns: 50% 50%;
+    width: 65rem;
+    grid-template-columns: 48% 48%;
   }
   .name {
     font-size: 1rem;
@@ -238,6 +235,30 @@
     width: 16rem;
     margin-left: 1rem;
   }
+  .grid-list {
+    width: 26rem;
+    margin-left: -1rem;
+    
+  }
+
+  .deals-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 61rem;
+    
+  }
+  .deal {
+    display: block;
+  }
+
+  .deal-image {
+    width: 14.5rem;
+  }
+
+  footer {
+    width: 65rem;
+  }
+
 }
 
   

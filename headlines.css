@@ -20,7 +20,6 @@
 }
 
 .make_transperant {
-  filter:contrast(300%);
   height: 20rem;
   width: 27rem;
 }
