@@ -1,18 +1,12 @@
-.link-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
 .hide-side1 {
   display: none;
 }
 .hide_formobile {
-  display: none !important;
+  display: none;
 }
 .navigation_bar ul:last-of-type li:last-of-type {
   display: flex;
 }
-
 
 .navigation_bar ul:first-of-type {
   padding: 1.5rem 0 1.5rem 2rem;
@@ -38,13 +32,13 @@
   width: 28rem;
 }
 
-.news article {
+/* .news article {
   background-size: 100% 30vh;
   position: relative;
   background-repeat: no-repeat;
-}
+} */
 .main_news {
-  height: 12em;
+  height: 14em;
   margin-bottom: -3.4rem;
 }
 .recent_news header {
@@ -95,12 +89,12 @@
 }
 
 .search_icon {
-  margin-left: -1.5rem;
+  margin-left: -3rem;
 }
 
 .insights {
   position: absolute;
-  top: 3rem;
+  top: 26rem;
 }
 
 .fa-share-alt {
@@ -109,20 +103,41 @@
 
 .nigeria {
   position: absolute;
-  top: 4.2rem;
+  top: 27.5rem;
 }
 
 .watch {
   position: absolute;
-  top:3rem
+  top:18rem
 }
 
 .martian {
   position: absolute;
-  top: 5rem;
+  top: 7.5rem;
 }
 
 .world {
   position: absolute;
-  top: 3rem;
+  top: 6rem;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #f42; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.matt {
+  top: 32.5rem
+}
+
+.first_author {
+  top: 12.5rem;
 }

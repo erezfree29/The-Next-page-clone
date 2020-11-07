@@ -1,30 +1,31 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .news {
+    margin-top: 1rem !important;
+    width: 51rem !important;
     display: grid;
-    grid-template-columns: 48 rem 48rem;
-    grid-template-rows: 11rem 11rem;
-    display: none;
-
+    grid-template-rows: 10rem 18.5rem;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 1rem;
   }
   
   .main_news {
+    height: 28rem !important;
+    width: 30.2rem;
     grid-row-start: 1;
     grid-row-end: 2;
-    height: 30rem !important;
-    width: 32rem !important;
-    margin-right: 0.3rem;
 
   }
 
   .first_sub_news {
-    grid-column-start: 2;
-    height: 9rem !important;
+    grid-row: 1;
+    height: 12rem !important;
   }
 
   .second_sub_news {
-    grid-column-start: 2;
-    margin-top: -1.7rem;
-    height: 10rem !important;
+    grid-column: 2;
+    grid-row: 2;
+    height: 15.5rem !important;
+    margin-top: 2.5rem;
   } 
 
   .first_sub_news h2,.second_sub_news h2 {
@@ -37,15 +38,19 @@
   }
 
   .matt {
-    margin-top: -2.5rem;
+    margin-top: -8.5rem;
   }
 
   .latest_news {
     margin-top: -1rem;
   }
+  .one {
+    grid-column-start: 1;;
+  }
+
   .main_news h3 {
     margin-bottom: -1rem;
-    margin-top: 12rem;
+    margin-top: 14.2rem;
   }
   .author {
     padding-top: 0.4rem;
@@ -55,15 +60,135 @@
     margin-top: 7rem;
   }
   .company-logo-first {
-    top: 89rem;
+    top: 91.5rem;
   }
 
   .company-logo-second {
-    top: 106.2rem;
+    top: 108.6rem;
   }
   .company-logo-third {
-    top: 123 rem;
+    top: 125.6rem;
+  }
+  .nigeria {
+    top: 21.2rem !important;
+  }
+  .menu {
+    padding-right: 1rem;
+  }
+  .hide-side1 {
+    display: flex !important;
+    justify-content: space-around;
+    width: 101;;
+    background-color: #131313;
+    color: #979f9f;
+    font-size: 0.8rem;
+    height: 2.5rem;
+    align-items: center;
+    width: 60rem;
+  }
+  .news_link {
+    padding-left: 3.5rem;
+  }
+  .top_nav {
+    margin-top: -0.3rem;
+    height: 2rem;
+  }
+  .menu {
+    display: none;
+  }
+  .hide_formobile {
+    display: flex !important;
+    justify-content: space-around;
+    margin-right: 22rem;
+    width: 38rem;
+  }
+  ul li::before {
+    visibility: hidden;  
+   
+  }
+  .search_icon {
+    margin-left: -19rem !important;
+    margin-right: 12rem;
+  }
+
+  .martian {
+    top:14.5rem !important;
+    width: 27rem;
+  }
+  .world {
+    top: -0.4rem !important;
+  }
+  .news-pieces {
+    display: grid;
+    grid-template-columns: 20rem 33% 33%;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+    display: block;
+    width: 100%;
+  }
+  .two {
+    grid-row: 1;
+    grid-column: 2;
+    display: block;
+    width: 100%;
+  }
+
+  .three {
+    grid-row 1;
+    grid-column: 3;
+    display: block;
+    width: 100%;
+  }
+
+  .four {
+    grid-row 2;
+    grid-column: 1;
+    display: block;
+    width: 100%;
+  }
+
+  .five {
+    grid-row 2;
+    grid-column: 2;
+    display: block;
+    width: 100%;
+  }
+
+  .six {
+    grid-row 2;
+    grid-column: 3;
+    display: block;
+    width: 100%;
+  }
+  
+  .seven {
+    grid-row 3;
+    grid-column: 1;
+    display: block;
+    width: 100%;
+  }
+
+  .eight {
+    grid-row 2;
+    grid-column: 2  ;
+    display: block;
+    width: 100%;
+  }
+
+  .new-picture-image {
+    width: 90%;
+  }
+  .new-text {
+    margin-left: 1rem;
+  }
+  .insights {
+    top:19rem !important;
+  }
+  .watch {
+    top:7rem !important;
   }
 }
 
-
+  
