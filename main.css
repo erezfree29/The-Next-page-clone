@@ -12,6 +12,7 @@ a {
   height: 40px;
   background-image: url("./assets/logo-small.png");
 }
+
 .icons {
   display: block;
   width: 1rem;
@@ -25,7 +26,10 @@ a {
   background-image: url("./assets/search.png");
 }
 
-.top_nav, .navigation_bar, .top_nav ul, .navigation_bar ul {
+.top_nav,
+.navigation_bar,
+.top_nav ul,
+.navigation_bar ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,8 +41,7 @@ a {
   z-index: 9999;
   background-color: white;
 }
+
 .menu {
   margin-right: 1rem;
 }
-
-

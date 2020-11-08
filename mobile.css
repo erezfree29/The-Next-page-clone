@@ -1,9 +1,11 @@
 .hide-side1 {
   display: none;
 }
+
 .hide_formobile {
   display: none;
 }
+
 .navigation_bar ul:last-of-type li:last-of-type {
   display: flex;
 }
@@ -21,6 +23,7 @@
   border-left: 1px solid rgba(143, 137, 137, 0.1);
   border-right: 1px solid rgba(143, 137, 137, 0.1);
 }
+
 .navigation_bar button {
   display: flex;
 }
@@ -37,14 +40,6 @@
   margin-bottom: -3.4rem;
   background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/earth.png');
   margin-bottom: 0.5rem;
-}
-.recent_news header {
-  display: flex;
-  flex-direction: column;
-  color: blanchedalmond;
-  height: 100%;
-  padding: 2rem;
-  z-index: 10;
 }
 
 .recent_news {
@@ -68,13 +63,13 @@
 }
 
 .by {
-  padding-right:0.5rem;
+  padding-right: 0.5rem;
 }
 
 .first_sub_news {
   height: 9rem;
   margin-bottom: -3.2rem;
-  background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/tnw2020-feature_img-02.jpg');"
+  background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/TNW-Working-405x270.jpg');
 }
 
 .second_sub_news {
@@ -107,7 +102,7 @@
 
 .watch {
   position: absolute;
-  top:18rem
+  top: 18rem
 }
 
 .martian {
@@ -121,16 +116,23 @@
 }
 
 ul {
-  list-style: none; /* Remove default bullets */
+  list-style: none;
+  /* Remove default bullets */
 }
 
 ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #f42; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #f42;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
 }
 
 .matt {
@@ -144,4 +146,3 @@ ul li::before {
 .logo-desktop {
   display: none;
 }
-

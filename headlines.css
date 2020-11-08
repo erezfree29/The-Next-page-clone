@@ -33,7 +33,7 @@
   color: white;
   font-size: 1rem;
   z-index: 1;
-  top :15rem;
+  top: 15rem;
   left: 2rem;
 }
 
@@ -45,7 +45,6 @@
   font-size: 1.2rem;
   width: 21rem;
 }
-
 
 .published {
   color: #828282;
