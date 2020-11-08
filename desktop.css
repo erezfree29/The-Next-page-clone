@@ -1,0 +1,14 @@
+@media (min-width: 769px)  {
+  .hide-side1 {
+    display: flex !important;
+    justify-content: space-around;
+    background-color: #131313;
+    color: #819797;
+    font-size: 0.8rem;
+    height: 2.5rem;
+    align-items: center;
+    width: 80.6rem;
+    margin-left: -11rem;
+  }
+
+} 
