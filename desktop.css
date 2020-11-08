@@ -72,7 +72,6 @@
     align-items: center;
   }
   .nnews,
-  .nevents,
   .nbusiness,
   .namas,
   .nspaces,
@@ -82,6 +81,11 @@
   .ncontact {
     margin-left: -7rem;
   }
+
+  .nnews {
+    margin-left: 4rem;
+  }
+
   .ncontact {
     margin-right: 4rem;
   }
@@ -139,21 +143,21 @@
   }
   .company-logo-first {
     top: 63rem;
-    left: 12rem;
+    left: 17.2rem;
   }
   .company-logo-second {
     top: 63rem;
-    left: 28rem;
+    left: 33.4rem;
   }
   .company-logo-third {
     top: 63rem;
-    left: 44.5rem;
+    left: 49.6rem;
   }
   .company-logo-four {
     position: absolute;
     width: 4.5rem;
-    top: 63rem;
-    left: 61.5rem
+    top: 65.8rem;
+    left: 43.6rem;
   }
   .text-on-picture {
     top: 5 rem;
