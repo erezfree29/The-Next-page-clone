@@ -20,11 +20,11 @@
     grid-template-rows: 50% 50%;
   }
   .main_news {
+    background-image: url("./assets/imageedit_5_5131431805.gif");
     grid-row-start: 1;
     grid-row-end: 3;
     height: 20rem;
     width: 47.8rem;
-    background-image: url("./assets/imageedit_5_5131431805.gif");
   }
   .second_sub_news {
     margin-top: -0.8rem;
