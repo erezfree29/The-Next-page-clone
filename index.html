@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="./main.css">
 		<link rel = "stylesheet" href="./tablet.css">
 		<link rel = "stylesheet" href="./mobile.css">
+		<link rel = "stylesheet" href="./desktop.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -17,32 +18,33 @@
 <body>
 	<header>
 		<div class="link-nav hide-side1">
-				<span class="news_link"><a href="#">News</a></span>
-				<a href="#">Events <span></span></a>
-				<a href="#">Business <span></span></a>
-				<a href="#">AMAs</a>
-				<a href="#">Spaces</a>
-				<a href="#">Terms & Conditions</a>
-				<a href="#">About</a>
-				<a href="#">Team</a>
-				<a href="#">Advertise</a>
-				<a href="#">Jobs</a>
-				<a href="#">Contact</a></li>
+				<span class="news_link"><a href="#" class="nnews">News</a></span>
+				<a href="#" class="nevents">Events <span></span></a>
+				<a href="#" class="nbusiness">Business <span></span></a>
+				<a href="#" class="namas">AMAs</a>
+				<a href="#" class="nspaces">Spaces</a>
+				<a href="#" class="nterms">Terms & Conditions</a>
+				<a href="#" class="nabout">About</a>
+				<a href="#" class="nadvertise">Advertise</a>
+				<a href="#" class="njobs">Jobs</a>
+				<a href="#" class="ncontact">Contact</a>
 		</div>
 		<nav class="top_nav">
 			<div class="logo-mobile">
-				<img src="./assets/logo-small.png" alt="logo" />
+				<img  src="./assets/logo-small.png" alt="logo" />
+			</div>
+			<div class="logo-desktop">
+				<img  src="./assets/logo-desk.png" alt="logo" />
 			</div>
 			<div class="navigation_bar">
 				<div class="hide_formobile">
-					<ul>
-					<li><a href="#">Latest</a></li>
-					<li><a href="#">Hard Fork</a></li>
-					<li><a href="#">Plugged</a></li>
-					<li><a href="#">ReadMe</a></li>
-					<li><a href="#">Growth Quarters</a></li>
-					<li><a href="#">Neutral</a></li>
-					</ul>
+					<span class="latest-nav"><a href="#">Latest</a></span>
+					<span class="fork-nav"><a href="#">Hard Fork</a></span>
+					<span class="plugged-nav"><a href="#">Plugged</a></span>
+					<span class="read-me-nav"><a href="#">ReadMe</a></span>
+					<span class="growth-nav"><a href="#">Growth Quarters</a></span>
+					<span class="shift-nav"><a href="#">Shift</a></span>
+					<span class="neural-nav"><a href="#">Neural</a></span>
 				</div>
 							<i class=" icons search_icon"></i>
 						<img class="menu" src="./assets/menu.svg" alt="menu_icon">
@@ -50,7 +52,7 @@
 		</nav>
 	</header>
 	<div class="news">
-		<article class="main_news" style="background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/earth.png');">
+		<article class="main_news">
 			<div class="logo_article"></div>
 			<header class="recent_news">
 				<h3 class="world">WORLD</h3>
@@ -64,12 +66,12 @@
 				</div>
 			</header>
 		</article>
-		<article class="news_articles first_sub_news" style="background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/tnw2020-feature_img-02.jpg');">
-			<header class="recent_news">
+		<article class="news_articles first_sub_news">
+			<header>
 				<h2 class="watch">Watch all TNW2020 talks on-demand</h2>
 			</header>
 		</article>
-		<article class="news_articles second_sub_news" style="background-image: linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(10, 10, 10, 0.73)), url('./assets/nigeria.jpg');">
+		<article class="news_articles second_sub_news">
 			<header class="recent_news">
 				<H3 class="insights">INSIGHTS</H3>
 				<h2 class="nigeria">Nigeria desperately needs scientific investment to tackle COVID-19</h2>
@@ -86,52 +88,52 @@
     <section class="container latest_news">
 			<div class="latest-news-header la-deals">Latest news ></div>
 			<div class="news-pieces">
-				<div class="new one">
+				<div class="new three">
 					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/pexels-cottonbro-4064834-405x270.jpg"></div>
-					<div class="new-text"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
-						<span class="new-time">Yen Huang - 4 hours ago</span>
+					<div class="new-text"><a href="#">This in-depth Microsoft excal and data analysis training can turn you into a true data scientist</a> <br>
+						<span class="new-time">TNW Deals - 23 hours ago</span>
+					</div>
+        </div>
+        <div class="new one">
+					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/AI-camera-referee-e1604295644927-513x270.jpg"></div>
+					<div class="new-text"><a href="#">AL mistakes referee's bald head for footbal -hilarity ensued</a> <br>
+						<span class="new-time">Ivan Meria  - 5 hours ago</span>
 					</div>
         </div>
         <div class="new two">
-					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/nigeria.jpg"></div>
+					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/global-earh-international-gq-368x276.png"></div>
 					<div class="new-text"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
-						<span class="new-time">Yen Huang - 4 hours ago</span>
-					</div>
-        </div>
-        <div class="new three">
-					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/sale_16675_primary_image.jpg"></div>
-					<div class="new-text"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
-						<span class="new-time">Yen Huang - 4 hours ago</span>
+						<span class="new-time">Mikhal Vink - 6 hours ago</span>
 					</div>
         </div>
         <div class="new four">
-					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/sale_27421_primary_image.jpg"></div>
-					<div class="new-text"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
-						<span class="new-time">Yen Huang - 4 hours ago</span>
+					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/image-10-2-516x270.png"></div>
+					<div class="new-text"><a href="#">To reach net-zero carboon emissions, we must address socail inequalities</a> <br>
+						<span class="new-time">The Conversation - 1 day ago</span>
 					</div>
         </div>
         <div class="new five">
-					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/reddit-deleted-posts-comments-threads.jpg"></div>
-					<div class="new-text"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
-						<span class="new-time">Yen Huang - 4 hours ago</span>
+					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/TNW-Working-405x270.jpg"></div>
+					<div class="new-text"><a href="#">Aspiring to be a full time entreprenur? Then you should probably consider these five groth tools</a> <br>
+						<span class="new-time">TNW Deals - 1 day ago</span>
 					</div>
         </div>
         <div class="new six">
-					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/Snag_2a77832d-368x276.png"></div>
-					<div class="new-text"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
-						<span class="new-time">Yen Huang - 4 hours ago</span>
+					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/Email-Marketing-Gmail-405x270.jpg"></div>
+					<div class="new-text"><a href="#">This email marketing tool could turn all your campaigns into gold</a> <br>
+						<span class="new-time">TNW Deals - 1 day ago</span>
 					</div>
         </div>
         <div class="new seven">
-					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/intelamd.jpg"></div>
-					<div class="new-text"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
-						<span class="new-time">Yen Huang - 4 hours ago</span>
+					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/image-8-5-368x276.png"></div>
+					<div class="new-text"><a href="#">Facebook charged Biden a higher price than Trumo for campaign ads</a> <br>
+						<span class="new-time">The Markup - 2 days ago</span>
 					</div>
         </div>
         <div class="new eight">
-					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/TNW-Working-405x270.jpg"></div>
-					<div class="new-text"><a href="#">Twitter engineer shares 5 tips on how to ace coding interviews</a> <br>
-						<span class="new-time">Yen Huang - 4 hours ago</span>
+					<div class="new-picture"><img alt="news-photo" class="new-picture-image" src="./assets/Backbone-Featured-516x270.jpg"></div>
+					<div class="new-text"><a href="#">The Backbone one is the best mobile gaming controller I've laid hands on</a> <br>
+						<span class="new-time">Rachel Kaser - 2 days ago</span>
 					</div>
 				</div>
 			</div>
@@ -192,7 +194,7 @@
 						<img class="company-logo-third" alt="company-logo" src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F923531733244538880%2FymItJZDV.jpg&amp;signature=e0bb5157b7fc1fe72aa6aa64886af24b">
 					</div>	
 				</div>
-				<div class="round hidden">
+				<div class="round hidden show">
 					<div class="company"><div class="name">Concure Oncology</div></div>
 					<div class="raising">
 						<div class="amount">$2M</div>
@@ -203,8 +205,11 @@
 						<hr>
 						<div class="brief">Concure Oncology raises $2M to bring innovative breast cancer radiation therapy to more patients <span class="on"> on GeekWire</span></div>
 					</div>
+					<div class="round-image">
+						<img class="company-logo-four" alt="company-logo" src="./assets/image.png">
 				</div>
 			</div>
+		 </div>
     </section>
     <section class="container headlines">
 			<div class="headline">
@@ -219,7 +224,7 @@
 					<div class="box"><div class="info"><div>LATEST</div>Xillnx stock goes up, AMD stock goes down after $35B buyout</div></div>
 					<img class="side-pic" alt="sub-headline" src="./assets/intelamd.jpg">
 				</div>
-				<ul>
+				<ul class="grid-list">
 					<li>
 						<a href="#">Elon 'own no home' Musk sells Gene Wilder's old pad -- 5 properties to go</a>
 						<hr> 
@@ -236,16 +241,16 @@
 			<div class="headline">
 				<div class="la-deals">Apps ></div>
 				<div class="headline-image make_transperant"><img class="make_transperant"  alt="headline" src="./assets/Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg"></div>
-				<div class="text-on-picture">
+				<div class="text-on-picture netflix">
 					<div class="most">MOST POPULAR</div>
 					<div class="about-headline">Netflix just made its best two plans a bit more expensive</div>
 					<div class="published">Naper Lopez - 3 days ago</div>
 			 </div>
-				<div class="sub-headline">
+				<div class="sub-headline second_sub">
 					<div class="box"><div class="info"><div>LATEST</div>How to change your Messenger background and emoj</div></div>
 					<img class="side-pic" alt="sub-headline" src="./assets/Messenger-Image.jpg">
 				</div>
-				<ul>
+				<ul class="grid-list">
 					<li><a href="#">Praise Hephaestus! Microsoft Office iPad apps now have trackpad support</a><hr></li>
 					<li><a href="#">YouTube's mobile app gets several small tweaks to enhance the viewing experience</a></li>
 					<li><a href="#">Why open ecosystems are the future of app development </a><hr></li>
@@ -263,9 +268,9 @@
 			 </div>
 				<div class="sub-headline">
 					<div class="box"><div class="info"><div>LATEST</div>Big Sur 11.0.1 developer's beta is out - but where's the general release?</div></div>
-					<img class="side-pic" alt="sub-headline" src="./assets/Messenger-Image.jpg">
+					<img class="side-pic" alt="sub-headline" src="./assets/header-image-macOS-big-sure-11.0.1.png">
 				</div>
-				<ul>
+				<ul class="grid-list">
 					<li><a href="#">AMD's Radeon RX 6000 GPU'S are a serious challenge to Nivida's dominance</a><hr></li>
 					<li><a href="#">Why hasn't the Apple Watch design changed? We asked an expert</a><hr></li>
 					<li><a href="#">The Buffalito is a lamp-equipped power bank thats wants to make a difference</a><hr></li>
@@ -284,7 +289,7 @@
 					<div class="box"><div class="info"><div>LATEST</div>The Backbone One is the best mobile gaming controller i've laid hands on</div></div>
 					<img class="side-pic" alt="sub-headline" src="./assets/Backbone-Featured.jpg">
 				</div>
-				<ul>
+				<ul class="grid-list">
 					<li><a href="#">How to subscribe to Apple One from your phone or Ipad</a><hr></li>
 					<li><a href="#">With 1M global charge points, what's next for EV charging</a><hr></li>
 					<li><a href="#">Qanon conspiracy bots are taking over Twitter</a><hr></li>
@@ -322,7 +327,7 @@
 					<div class="box"><div class="info"><div>LATEST</div>This real-world multiplayer game let's you spend other people's money - really</div></div>
 					<img class="side-pic" alt="sub-headline" src="./assets/mixed-reality-spatial-computing-gq.png">
 				</div>
-				<ul>
+				<ul class="grid-list">
 					<li><a href="#">Warzone is infintely more fun without vehicles (even though it's just a bug)</a><hr></li>
 					<li><a href="#">The Winamp Skin Museum is a beautiful homage to an iconic piece of software</a><hr></li>
 					<li><a href="#">Why skin tone modifiers don't work for <img class="hand" alt="hand" src="https://s.w.org/images/core/emoji/11/svg/1f91d.svg">,explained by an emoji historian</a><hr></li>
@@ -341,7 +346,7 @@
 					<div class="box"><div class="info"><div>LATEST</div>Europen EV sales had a record- breaking September</div></div>
 					<img class="side-pic" alt="sub-headline" src="./assets/global-ev-sales-2040-future-car-wood-mackenzie-analysis-market-796x448.jpg">
 				</div>
-				<ul>
+				<ul class="grid-list"> 
 					<li><a href="#">Micromanaging sucks -especially when it's about your 'Zoom shoes'</a><hr></li>
 					<li><a href="#">5 tips for global software sales my team learned the hard way</a><hr></li>
 					<li><a href="#">Tesla short sellers have lost $27B betting against Elon Musk this year</a><hr></li>
@@ -360,7 +365,7 @@
 					<div class="box"><div class="info"><div>LATEST</div>Amazon's electric delivery vans made by Rivlan are here, and they're pretty cute</div></div>
 					<img class="side-pic" alt="sub-headline" src="./assets/Amazon-Rivian-electric-delivery-van.jpg">
 				</div>
-				<ul>
+				<ul class="grid-list">
 					<li><a href="#">This adorable little electric car is made of trash</a><hr></li>
 					<li><a href="#">Huyndai's first fuel cell=powered trucks arrive in Switzerland -bye bye ,diesel</a><hr></li>
 					<li><a href="#">Lynk & Co's car sharing-owning scheme will neaver cost more than €500 a month</a><hr></li>
@@ -379,7 +384,7 @@
 					<div class="box"><div class="info"><div>LATEST</div>This app guesses your Myer-Briggs personality based on your Reddit history</div></div>
 					<img class="side-pic" alt="sub-headline" src="./assets/reddit-deleted-posts-comments-threads.jpg">
 				</div>
-				<ul>
+				<ul class="grid-list">
 					<li><a href="#">Pixar's 'Soul' will land on Disney+ Christmas day ,no $30 fee required</a><hr></li>
 					<li><a href="#">
 						Call of Duty: Warzone Season 60 riddled with crashed and silly subway bugs</a><hr></li>
@@ -394,7 +399,7 @@
 				<div class="la-deals"><a href="#">Latest deals</a></div>
 				<div class="all-deals"><a href="#">See all Deals</a></div>
 			</div>
-			<div class="deals">
+			<div class="deals deals-container">
 				<div class="deal">
 					<img class="deal-image" alt="deal-image" src="./assets/sale_48032_primary_image.jpg">
 					<div class="deal-text">The Ultimate Python & Artificial intellgence Certification Bundle <div><span class="old-price">$1701</span> <span class="new-price">$39.99</span></div></div>
