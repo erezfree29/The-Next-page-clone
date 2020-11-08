@@ -10,6 +10,7 @@ a {
 .logo-mobile img {
   width: 66px;
   height: 40px;
+  background-image: url("./assets/logo-small.png");
 }
 .icons {
   display: block;
@@ -39,3 +40,5 @@ a {
 .menu {
   margin-right: 1rem;
 }
+
+
