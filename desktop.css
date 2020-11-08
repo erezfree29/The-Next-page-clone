@@ -11,4 +11,46 @@
     margin-left: -11rem;
   }
 
+  .news {
+   background-color: red;
+   height: 20rem;
+   width: 80rem;
+   margin-top: 3rem;
+   margin-left: -11rem;
+   display: grid;
+   grid-template-columns: 60% 40%;
+   grid-template-rows: 50% 50%;
+  }
+
+  .main_news {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 20rem;
+    width: 47.8rem;
+  }
+
+  .second_sub_news {
+    margin-top: -0.8rem;
+    height: 10.77rem;
+  }
+  .martian {
+    left: 9rem;
+  }
+  .first_author {
+    left: 9rem;
+  }
+  .watch {
+    top: 4rem;
+  }
+  .insights {
+    top: 12rem;
+  }
+  .nigeria {
+    top: 13.5rem;
+    width: 23rem;
+  }
+  .matt {
+    top: 18.5 rem;
+  }
+
 } 
