@@ -1,0 +1,93 @@
+
+.latest-funding {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.top-funding {
+  width: 15rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: #f42;
+}
+
+.fund-more {
+  color: #f42;
+}
+
+.company {
+  margin-left: 1.5rem;
+  width: 23rem;
+  height: 3.5rem;
+  background-color: #f42;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.name {
+  font-size: 1.5rem;
+  padding-left: 5.5rem;
+}
+
+.raising {
+  margin-left: 1.5rem;
+  background-color: #ffebe7;
+  width: 23rem;
+  height: 3.5rem;
+}
+
+.amount {
+  padding-top: 0.7rem;
+  padding-left: 5.5rem;
+}
+
+.investor {
+  padding-left: 5.5rem;
+}
+
+.more-funding-info {
+  background-color: #fffaf8;
+  margin-left: 1rem;
+  width: 23rem;
+  height: 10rem;
+}
+
+.fa-coins {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.fa-briefcase {
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+}
+
+.on {
+  color: #aaa;
+}
+
+.hidden {
+  display: none;
+}
+
+.company-logo-first {
+  width: 4.5rem;
+  position: absolute;
+  top: 107rem;
+  left: 2rem;
+}
+
+.company-logo-second {
+  width: 4.5rem;
+  position: absolute;
+  top: 124.2rem;
+  left: 2rem;
+}
+
+.company-logo-third {
+  width: 4.5rem;
+  position: absolute;
+  top: 141rem;
+  left: 2rem;
+}

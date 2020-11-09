@@ -1,0 +1,62 @@
+.side-pic {
+  width: 9.6rem;
+}
+
+.sub-headline {
+  display: flex;
+  width: 28rem;
+}
+
+.box {
+  background-color: #fff4f2;
+  color: #f42;
+  font-weight: 600;
+  width: 27rem;
+  padding-left: 1rem;
+}
+
+.headline-image {
+  padding-left: 1rem;
+}
+
+.make_transperant {
+  height: 20rem;
+  width: 27rem;
+}
+
+.headline {
+  position: relative;
+}
+
+.text-on-picture {
+  position: absolute;
+  color: white;
+  font-size: 1rem;
+  z-index: 1;
+  top: 15rem;
+  left: 2rem;
+}
+
+.most {
+  font-size: 1rem;
+}
+
+.about-headline {
+  font-size: 1.2rem;
+  width: 21rem;
+}
+
+.published {
+  color: #828282;
+  font-weight: 900;
+  text-shadow: black 0.1rem 0 1rem;
+}
+
+.hand {
+  width: 1rem;
+}
+
+body {
+  max-width: 60rem;
+  margin: auto;
+}

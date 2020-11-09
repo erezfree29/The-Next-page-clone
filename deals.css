@@ -1,0 +1,51 @@
+.latest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.la-deals {
+  font-size: 1.8rem;
+  color: #f42;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.deals {
+  padding-bottom: 7rem;
+}
+
+.all-deals {
+  color: #f42;
+  font-size: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.deal {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.deal-image {
+  width: 7.5rem;
+}
+
+.deal-text {
+  padding-left: 1rem;
+}
+
+.old-price {
+  color: #aaacb4;
+  text-decoration: line-through;
+}
+
+.new-price {
+  color: #555;
+}

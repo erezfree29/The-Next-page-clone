@@ -1,0 +1,47 @@
+button {
+  border: none;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-mobile img {
+  width: 66px;
+  height: 40px;
+  background-image: url("./assets/logo-small.png");
+}
+
+.icons {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.search_icon {
+  background-image: url("./assets/search.png");
+}
+
+.top_nav,
+.navigation_bar,
+.top_nav ul,
+.navigation_bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top_nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+}
+
+.menu {
+  margin-right: 1.1rem;
+}

@@ -1,0 +1,236 @@
+@media (min-width: 1024px) {
+  .new-picture-image {
+    height: 5rem;
+    width: 13rem;
+  }
+
+  .hide-side1 {
+    display: flex !important;
+    justify-content: space-around;
+    background-color: #131313;
+    color: #819797;
+    font-size: 0.8rem;
+    height: 2.5rem;
+    align-items: center;
+    width: 80.6rem;
+    margin-left: -11rem;
+  }
+
+  .news {
+    height: 20rem;
+    width: 80rem;
+    margin-top: 3rem;
+    margin-left: -11rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .main_news {
+    background-image: url("./assets/imageedit_5_5131431805.gif");
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 20rem;
+    width: 47.8rem;
+  }
+
+  .second_sub_news {
+    margin-top: -0.8rem;
+    height: 10.77rem;
+  }
+
+  .martian {
+    left: 2rem;
+  }
+
+  .first_author {
+    left: 2rem;
+  }
+
+  .watch {
+    top: 4rem;
+    left: 48.5rem;
+  }
+
+  .insights {
+    top: 12rem;
+  }
+
+  .nigeria {
+    top: 13.5rem;
+    width: 23rem;
+  }
+
+  .matt {
+    top: 18.51rem;
+  }
+
+  .world {
+    left: 2rem;
+  }
+
+  .logo-mobileimg {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+    position: absolute;
+    top: 3rem;
+    left: -9rem;
+    height: 8rem;
+  }
+
+  .logo-desktopimg {
+    width: 16rem;
+    opacity: 0.05;
+  }
+
+  .hide_formobile {
+    display: flex;
+    align-items: center;
+  }
+
+  .nnews,
+  .nbusiness,
+  .namas,
+  .nspaces,
+  .nterms,
+  .nadvertise,
+  .njobs,
+  .ncontact {
+    margin-left: -7rem;
+  }
+
+  .nnews {
+    margin-left: 4rem;
+    color: white;
+  }
+
+  .ncontact {
+    margin-right: 4rem;
+  }
+
+  .latest-nav {
+    margin-left: -87rem;
+    margin-right: 0.5rem;
+  }
+
+  .plugged-nav,
+  .read-me-nav,
+  .growth-nav,
+  .shift-nav,
+  .neural-nav {
+    margin-left: 0.5rem;
+  }
+
+  .news-pieces {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .new {
+    display: block;
+    width: 14rem;
+  }
+
+  .new-text {
+    width: 11rem;
+    margin-left: 1rem;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .rounds {
+    display: flex;
+  }
+
+  .company,
+  .more-funding-info,
+  .raising {
+    width: 15rem;
+  }
+
+  .headlines {
+    display: grid;
+    width: 53rem;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .headline-image {
+    width: 17rem;
+  }
+
+  .make_transperant {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .company-logo-first {
+    top: 63rem;
+    left: 21.2rem;
+  }
+
+  .company-logo-second {
+    top: 63rem;
+    left: 37.4rem;
+  }
+
+  .company-logo-third {
+    top: 63rem;
+    left: 53.6rem;
+  }
+
+  .company-logo-four {
+    position: absolute;
+    width: 4.51rem;
+    top: 63rem;
+    left: 69.8rem;
+  }
+
+  .text-on-picture {
+    top: 6.5rem;
+  }
+
+  .about-headline {
+    font-size: 0.8rem;
+    width: 14rem;
+  }
+
+  .box {
+    width: 10.5rem;
+  }
+
+  .info {
+    width: 10rem;
+    font-size: 0.71rem;
+    height: 5rem;
+  }
+
+  .side-pic {
+    width: 4.6rem;
+  }
+
+  .deal {
+    display: block;
+  }
+
+  .deal-image {
+    width: 14.5rem;
+  }
+
+  footer {
+    width: 65rem;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .logo-mobile img {
+    margin-top: -1rem;
+    height: 3.5rem;
+  }
+}
