@@ -136,7 +136,7 @@
   }
 
   .three {
-    grid-row 1;
+    grid-row: 1;
     grid-column: 3;
     display: block;
     width: 100%;

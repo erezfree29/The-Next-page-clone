@@ -125,17 +125,14 @@
 
   .new {
     display: block;
+    width: 14rem;
   }
 
   .new-picture-image {
     height: 5rem;
     width: 13rem;
   }
-
-  .new {
-    width: 14rem;
-  }
-
+  
   .new-text {
     width: 11rem;
     margin-left: 1rem;
@@ -193,10 +190,6 @@
   }
 
   .text-on-picture {
-    top: 5 rem;
-  }
-
-  .text-on-picture {
     top: 6.5rem;
   }
 
@@ -236,4 +229,3 @@
     grid-template-columns: 25% 25% 25% 25%;
   }
 }
-

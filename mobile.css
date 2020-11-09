@@ -6,28 +6,6 @@
   display: none;
 }
 
-.navigation_bar ul:last-of-type li:last-of-type {
-  display: flex;
-}
-
-.navigation_bar ul:first-of-type {
-  padding: 1.5rem 0 1.5rem 2rem;
-}
-
-.navigation_bar ul:first-of-type li {
-  margin-right: 2rem;
-}
-
-.navigation_bar ul:last-of-type li {
-  display: flex;
-  border-left: 1px solid rgba(143, 137, 137, 0.1);
-  border-right: 1px solid rgba(143, 137, 137, 0.1);
-}
-
-.navigation_bar button {
-  display: flex;
-}
-
 .news {
   position: relative;
   color: white;
