@@ -138,8 +138,8 @@
     width: 17rem;
   }
   .make_transperant {
-    height: 10rem;
     width: 15rem;
+    height: 10rem;
   }
   .company-logo-first {
     top: 63rem;
@@ -155,9 +155,9 @@
   }
   .company-logo-four {
     position: absolute;
-    width: 4.5rem;
-    top: 65.8rem;
-    left: 43.6rem;
+    width: 4.51rem;
+    top: 63rem;
+    left: 65.8rem;
   }
   .text-on-picture {
     top: 5 rem;
