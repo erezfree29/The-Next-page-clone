@@ -1,11 +1,11 @@
-@media (min-width: 769px) {
+@media(min-width:769px) {
   .new-picture-image {
     height: 5rem;
     width: 13rem;
   }
 
   .hide-side1 {
-    display: flex !important;
+    display: flex!important;
     justify-content: space-around;
     background-color: #131313;
     color: #819797;
@@ -22,8 +22,8 @@
     margin-top: 3rem;
     margin-left: -11rem;
     display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 60%40%;
+    grid-template-rows: 50%50%;
   }
 
   .main_news {
@@ -69,7 +69,7 @@
     left: 2rem;
   }
 
-  .logo-mobile img {
+  .logo-mobileimg {
     display: none;
   }
 
@@ -81,7 +81,7 @@
     height: 8rem;
   }
 
-  .logo-desktop img {
+  .logo-desktopimg {
     width: 16rem;
     opacity: 0.05;
   }
@@ -91,14 +91,7 @@
     align-items: center;
   }
 
-  .nnews,
-  .nbusiness,
-  .namas,
-  .nspaces,
-  .nterms,
-  .nadvertise,
-  .njobs,
-  .ncontact {
+  .nnews,.nbusiness,.namas,.nspaces,.nterms,.nadvertise,.njobs,.ncontact {
     margin-left: -7rem;
   }
 
@@ -115,17 +108,13 @@
     margin-right: 0.5rem;
   }
 
-  .plugged-nav,
-  .read-me-nav,
-  .growth-nav,
-  .shift-nav,
-  .neural-nav {
+  .plugged-nav,.read-me-nav,.growth-nav,.shift-nav,.neural-nav {
     margin-left: 0.5rem;
   }
 
   .news-pieces {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25%25%25%25%;
   }
 
   .new {
@@ -146,16 +135,14 @@
     display: flex;
   }
 
-  .company,
-  .more-funding-info,
-  .raising {
+  .company,.more-funding-info,.raising {
     width: 15rem;
   }
 
   .headlines {
     display: grid;
     width: 53rem;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33%33%33%;
   }
 
   .headline-image {
@@ -226,6 +213,6 @@
 
   .deals-container {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25%25%25%25%;
   }
 }
