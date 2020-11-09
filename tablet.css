@@ -129,6 +129,7 @@
     display: grid;
     grid-template-columns: 21rem 21rem 21rem;
   }
+  
   .one {
     grid-column: 1;
     grid-row: 1;

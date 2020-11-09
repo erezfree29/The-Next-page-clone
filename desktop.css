@@ -3,7 +3,7 @@
     height: 5rem;
     width: 13rem;
   }
-  
+
   .hide-side1 {
     display: flex !important;
     justify-content: space-around;
@@ -204,7 +204,7 @@
 
   .info {
     width: 10rem;
-    font-size: 0.7rem;
+    font-size: 0.71rem;
     height: 5rem;
   }
 
