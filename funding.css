@@ -8,19 +8,18 @@
   width: 15rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
-  color: #ff4422;
+  color: #f42;
 }
 
 .fund-more {
-  color: #ff4422;
-  ;
+  color: #f42;
 }
 
 .company {
   margin-left: 1.5rem;
   width: 23rem;
   height: 3.5rem;
-  background-color: #ff4422;
+  background-color: #f42;
   display: flex;
   align-items: center;
   color: white;
@@ -65,7 +64,7 @@
 }
 
 .on {
-  color: #aaaaaa;
+  color: #aaa;
 }
 
 .hidden {
@@ -92,4 +91,3 @@
   top: 141rem;
   left: 2rem;
 }
-
