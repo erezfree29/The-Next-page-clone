@@ -1,10 +1,10 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px)and(max-width:1024px) {
   .news {
     margin-top: 1rem !important;
-    width: 64.5rem !important;
+    width: 64.5rem! important;
     display: grid;
-    grid-template-rows: 10rem 18.5rem;
-    grid-template-columns: 60% 40%;
+    grid-template-rows: 10rem18.5rem;
+    grid-template-columns: 60%40%;
     margin-bottom: 1rem;
   }
 
@@ -23,16 +23,16 @@
   .second_sub_news {
     grid-column: 2;
     grid-row: 2;
-    height: 15.5rem !important;
+    height: 15.5rem! important;
     margin-top: 2.5rem;
   }
 
-  .first_sub_news h2,
-  .second_sub_news h2 {
+  .first_sub_newsh2,
+  .second_sub_newsh2 {
     font-size: 0.95rem;
   }
 
-  .second_sub_news h3 {
+  .second_sub_newsh3 {
     font-size: 1.1rem;
     padding-bottom: 0.3rem;
   }
@@ -45,7 +45,7 @@
     margin-top: -1rem;
   }
 
-  .main_news h3 {
+  .main_newsh3 {
     margin-bottom: -1rem;
     margin-top: 14.2rem;
   }
@@ -129,7 +129,7 @@
     display: grid;
     grid-template-columns: 21rem 21rem 21rem;
   }
-  
+
   .one {
     grid-column: 1;
     grid-row: 1;
@@ -201,7 +201,7 @@
   }
 
   .watch {
-    top: 7rem !important;
+    top: 7rem! important;
   }
 
   .latest-funding {
@@ -220,16 +220,14 @@
     margin-right: -8rem;
   }
 
-  .company,
-  .raising,
-  .brief {
+  .company,.raising,.brief {
     width: 14rem;
   }
 
   .headlines {
     display: grid;
     width: 65rem;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: 48%48%;
   }
 
   .name {
@@ -248,7 +246,7 @@
 
   .deals-container {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33%33%33%;
     width: 61rem;
   }
 
@@ -272,8 +270,9 @@
     display: flex;
   }
 
-  .logo-mobile img {
+  .logo-mobileimg {
     margin-top: -1rem;
     height: 3.5rem;
   }
 }
+  
