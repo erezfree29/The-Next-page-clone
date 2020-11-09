@@ -1,4 +1,9 @@
 @media (min-width: 769px) {
+  .new-picture-image {
+    height: 5rem;
+    width: 13rem;
+  }
+  
   .hide-side1 {
     display: flex !important;
     justify-content: space-around;
@@ -223,10 +228,4 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
   }
-
-  .new-picture-image {
-    height: 5rem;
-    width: 13rem;
-  }
-  
 }
