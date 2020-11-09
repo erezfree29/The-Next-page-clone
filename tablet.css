@@ -1,7 +1,7 @@
 @media (min-width: 768px)and(max-width: 1024px) {
   .news {
     margin-top: 1rem !important;
-    width: 64.5re !important;
+    width: 64.5rem !important;
     display: grid;
     grid-template-rows: 10rem 18.5rem;
     grid-template-columns: 60% 40%;
@@ -277,4 +277,3 @@
     height: 3.5rem;
   }
 }
-  
