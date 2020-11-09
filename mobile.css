@@ -6,14 +6,6 @@
   display: none;
 }
 
-.navigation_bar ul:last-of-type li:last-of-type {
-  display: flex;
-}
-
-.navigation_bar ul:first-of-type {
-  padding: 1.5rem 0 1.5rem 2rem;
-}
-
 .navigation_bar ul:first-of-type li {
   margin-right: 2rem;
 }
@@ -122,17 +114,11 @@ ul {
 
 ul li::before {
   content: "\2022";
-  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #f42;
-  /* Change the color */
   font-weight: bold;
-  /* If you want it to be bold */
   display: inline-block;
-  /* Needed to add space between the bullet and the text */
   width: 1em;
-  /* Also needed for space (tweak if needed) */
   margin-left: -1em;
-  /* Also needed for space (tweak if needed) */
 }
 
 .matt {
