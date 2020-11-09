@@ -69,7 +69,6 @@
   .hide-side1 {
     display: flex !important;
     justify-content: space-around;
-    width: 100rem;
     background-color: #131313;
     color: #979f9f;
     font-size: 1.2rem;
@@ -221,7 +220,6 @@
   }
   .nav-links {
     display: flex;
-    justify-content: sp;
   }
   .logo-mobile img {
     margin-top: -1rem;

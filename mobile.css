@@ -79,7 +79,7 @@
 
 .watch {
   position: absolute;
-  top: 18rem
+  top: 18rem;
 }
 
 .martian {
@@ -94,7 +94,6 @@
 
 ul {
   list-style: none;
-  /* Remove default bullets */
 }
 
 ul li::before {
@@ -107,7 +106,7 @@ ul li::before {
 }
 
 .matt {
-  top: 32.5rem
+  top: 32.5rem;
 }
 
 .first_author {
