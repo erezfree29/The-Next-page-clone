@@ -15,10 +15,9 @@ I have clonded a webpage using responsive design.
 
 Used Media queries to acheive responsive design.
 
-**Built**
-⚫ Html
-   
-⚫ Css
+**Built with**
+ -   Html
+ -    Css
 
 **Live Demo** 
 https://erezfree29.github.io/The-next-page-clone/
