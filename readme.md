@@ -1,39 +1,49 @@
-Toggle Zen ModePREVIEWToggle Mode
 
-Project The next page Clone
+**Project name:**
 
-Screenshot Alt Article
+:The next page Clone**
 
-In this project, I built:
+**Scope**
+ 
+I have clonded a webpage using responsive design.
 
-A clone of the home page of the "Next Page" which can be found in https://thenextweb.com/
+**Cloned page screeshot** 
 
-A Screenshot of the time point of which the page was cloned  https://www.awesomescreenshot.com/image/5615862/16c425a0148cffac00d224addce89cfb; 
+![Alt The next web page](https://www.awesomescreenshot.com/image/5615862/16c425a0148cffac00d224addce89cfb  "Original screenshot")
 
-In this project I:
+**In This project I have:**
 
-Used CSS selectors correctly; Used HTML elements box model (margin, padding, width, height); Used industry-standard tools (flexbox) to place elements in the page; Applied front-end best practices; Used CSS flexbox; Applied HTML and CSS linter errors detectors. Built with HTML and CSS.
+Used Media queries to acheive responsive design.
 
-Used media queries for page responsivness
+**Built with**
+ Markup : * Bullet list
+ - Html
+   
+   Css
 
-Live Demo https://erezfree29.github.io/new-york-times/
+**Live Demo** 
+https://erezfree29.github.io/The-next-page-clone/
 
-Author Erez Friemagor
+**Author** 
+Erez Friemagor
 
-Github: @erezfree29
+**Github:** 
+@erezfree29
 
-Twitter: https://twitter.com/friemagor
+**Twitter:** 
+https://twitter.com/friemagor
 
-Linkedin: https://www.linkedin.com/in/erez-friemagor-3b0bab145/
+**Linkedin:** 
+https://www.linkedin.com/in/erez-friemagor-3b0bab145/
 
-handshake Contributing Contributions, issues and feature requests are welcome! Start by:
+  
+🤝 Contributing
 
-Forking the project Cloning the project to your local machine cd into the project directory Run git checkout -b your-branch-name Make your contributions Push your branch up to your forked repository Open a Pull Request with a detailed description to the development branch of the original project for a review
-
-Next features Used Javascript for more special effects and logic; Used Ruby on Rails; Created a personalized contact page; Pushed the project to a personal domain. Show your support Give a star if you like this project!
-
-Erez cloning new york times article page screenshot making of the replica of a page article from the new york times without java script features
-
-Built With html and css vsc text editor Authors 👤 Erez
-
-GitHub: erezfree29 Twitter: https://twitter.com/friemagor LinkedIn: https://www.linkedin.com/in/erez-friemagor-3b0bab145/
+Contributions, issues and feature requests are welcome! Start by:
+-   Forking the project
+-   Cloning the project to your local machine
+-   `cd`  into the project directory
+-   Run  `git checkout -b your-branch-name`
+-   Make your contributions
+-   Push your branch up to your forked repository
+-   Open a Pull Request with a detailed description to the development branch of the original project for a review
