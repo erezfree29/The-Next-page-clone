@@ -15,11 +15,10 @@ I have clonded a webpage using responsive design.
 
 Used Media queries to acheive responsive design.
 
-**Built with**
- Markup : * Bullet list
- - Html
+**Built**
+⚫ Html
    
-   Css
+⚫ Css
 
 **Live Demo** 
 https://erezfree29.github.io/The-next-page-clone/
