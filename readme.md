@@ -8,9 +8,7 @@
 I have clonded a webpage using responsive design.
 
 **Cloned page screeshot** 
-
-![Alt The next web page](https://www.awesomescreenshot.com/image/5615862/16c425a0148cffac00d224addce89cfb  "Original screenshot")
-
+![Orignal page(includes original photos](https://www.awesomescreenshot.com/image/5615862/16c425a0148cffac00d224addce89cfb)
 **In This project I have:**
 
 Used Media queries to acheive responsive design.
@@ -35,9 +33,9 @@ https://twitter.com/friemagor
 https://www.linkedin.com/in/erez-friemagor-3b0bab145/
 
   
-🤝 Contributing
 
-Contributions, issues and feature requests are welcome! Start by:
+**handshake Contributing Contributions, issues and feature requests are welcome! Start by:**
+
 -   Forking the project
 -   Cloning the project to your local machine
 -   `cd`  into the project directory
@@ -45,3 +43,4 @@ Contributions, issues and feature requests are welcome! Start by:
 -   Make your contributions
 -   Push your branch up to your forked repository
 -   Open a Pull Request with a detailed description to the development branch of the original project for a review
+
