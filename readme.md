@@ -9,7 +9,7 @@ I have clonded a webpage using responsive design.
 
 **Cloned page screeshot** 
 
-![Original Website Screenshot](www.awesomescreenshot.com/image/5615862/16c425a0148cffac00d224addce89cfb "Original")
+![Original Website Screenshot]("www.awesomescreenshot.com/image/5615862/16c425a0148cffac00d224addce89cfb")
 
 **In This project I have:**
 
