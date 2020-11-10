@@ -9,7 +9,8 @@ I have clonded a webpage using responsive design.
 
 **Cloned page screeshot** 
 
-![Alt text](www.awesomescreenshot.com/image/5615862/16c425a0148cffac00d224addce89cfb "Optional title")
+![Original Website Screenshot](www.awesomescreenshot.com/image/5615862/16c425a0148cffac00d224addce89cfb "Original")
+
 **In This project I have:**
 
 Used Media queries to acheive responsive design.
