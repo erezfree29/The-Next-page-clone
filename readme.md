@@ -9,8 +9,8 @@ I have clonded a webpage using responsive design.
 
 **Cloned page screeshot** 
 
-![GitHub Logo](./assets/nigeria.jpg)
-Format: ![Alt Text](url)
+![Original ScreenHot](./assets/Awesome-Screenshot)
+Format: ![Original](url)
 
 **In This project I have:**
 
